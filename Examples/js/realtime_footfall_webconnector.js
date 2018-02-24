@@ -44,7 +44,7 @@
           "id": "OTSZ02"
         },
         "dimensionFacets": [
-              "agent_year_of_birth", "agent_gender", "agent_nationality", "status"
+              "agent_gender", "status"
           ],
         "period": 1440,
          "aggregations": [
