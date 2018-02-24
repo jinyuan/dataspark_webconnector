@@ -86,7 +86,7 @@
           var tableData = [];
           for (var i = 0, len = data.length; i < len; i++) {
             tableData.push({
-              "timestamp": Date.parse(data[i].timestamp).toString(),
+              "timestamp": data[i].timestamp,
               "agent_gender": data[i]["event"].agent_gender,
               "hyperUnique_unique_agents": data[i]["event"].hyperUnique_unique_agents,
               "status": data[i]["event"].status,
