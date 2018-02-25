@@ -6,12 +6,13 @@
 
 ## Setup
 1. Install npm dependencies
- `npm install --production`
+
+`npm install --production`
 
 2.  Start the web  server
-  `npm start`
+
+`npm start`
 
 3. Navigate to the localhost url
-  `http://localhost:8888/Simulator/index.html`
 
- 
+`http://localhost:8888/Simulator/index.html`
