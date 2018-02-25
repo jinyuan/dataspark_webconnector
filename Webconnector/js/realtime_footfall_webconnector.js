@@ -37,6 +37,7 @@
     // Download the data
     myConnector.getData = function(table, doneCallback) {
 
+      //Parameters or query
       var data = {
         "location": {
           "locationType": "locationHierarchyLevel",
@@ -58,6 +59,8 @@
       var key =  "qGGqjQqT_5XUaQvfFEfCascG9zka";
       var secret = "CDfaRvgeJOwUoSNhMFf0JSFELkYa";
       var token = null;
+
+      //Get token
       $.ajax({
         type: "POST",
         async:false,
@@ -77,7 +80,6 @@
         data: JSON.stringify(data),
         contentType: 'application/json',
         beforeSend: function (xhr) {
-          console.log(token);
           xhr.setRequestHeader ("Authorization", "Bearer " + token);
           xhr.setRequestHeader ("Content-Type", "application/json");
         },
@@ -97,25 +99,6 @@
           doneCallback();
         }
       });
-
-/*
-        $.getJSON("http://apistore.datasparkanalytics.com:8280/realtimefootfall/v2/query", function(resp) {
-            var feat = resp.features, tableData = [];
-
-            // Iterate over the JSON object
-            for (var i = 0, len = feat.length; i < len; i++) {
-                tableData.push({
-                    "id": feat[i].id,
-                    "mag": feat[i].properties.mag,
-                    "title": feat[i].properties.title,
-                    "location": feat[i].geometry
-                });
-            }
-
-            table.appendRows(tableData);
-            doneCallback();
-        });
-        */
     };
 
     tableau.registerConnector(myConnector);
