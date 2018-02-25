@@ -1,8 +1,17 @@
-# Tableau Web Data Connector SDK
-[![Tableau Supported](https://img.shields.io/badge/Support%20Level-Tableau%20Supported-53bd92.svg)](https://www.tableau.com/support-levels-it-and-developer-tools) [![Coverage Status](https://coveralls.io/repos/github/tableau/webdataconnector/badge.svg?branch=master)](https://coveralls.io/github/tableau/webdataconnector?branch=master) [![Build Status](https://travis-ci.org/tableau/webdataconnector.svg?branch=master)](https://travis-ci.org/tableau/webdataconnector)
+# Tableau Web Data Connector SDK for DataSpark Realtime Footfall API
 
-Use the Tableau Web Data Connector (WDC) to connect to web data sources from Tableau. This is the repository for the Tableau WDC SDK, which includes developer samples and a simulator to help you create your connectors.
 
-[Visit the project website and documentation here](http://tableau.github.io/webdataconnector/).
+## Web Connector URL
+`https://jinyuan.github.io/dataspark_webconnector/Webconnector/html/RealtimeFootfall.html`
 
-Want to contribute to the WDC? See our [contribution guidelines](http://tableau.github.io/).
+## Setup
+1. Install npm dependencies
+ `npm install --production`
+
+2.  Start the web  server
+  `npm start`
+
+3. Navigate to the localhost url
+  `http://localhost:8888/Simulator/index.html`
+
+ 
