@@ -56,8 +56,8 @@
         ]
       };
 
-      var key =  "qGGqjQqT_5XUaQvfFEfCascG9zka";
-      var secret = "CDfaRvgeJOwUoSNhMFf0JSFELkYa";
+      var key =  "RZzu8S9ZpXqcb0WmM8S5LjlnDaUa";
+      var secret = "kRy3_9z1xz54DhyLMC6YjV84ZI4a";
       var token = null;
 
       //Get token
