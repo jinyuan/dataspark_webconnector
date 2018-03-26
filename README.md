@@ -4,6 +4,9 @@
 ## Web Connector URL
 `https://jinyuan.github.io/dataspark_webconnector/Webconnector/html/RealtimeFootfall.html`
 
+## Dashboard
+`https://jinyuan.github.io/dataspark_webconnector/Dashboard/Pages/home.html`
+
 ## Setup
 1. Install npm dependencies
 
